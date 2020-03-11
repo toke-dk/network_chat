@@ -1,6 +1,6 @@
 from socket import*
-
-HOST = '192.168.0.255'
+host_input = input("Hvilken ip har du? ")
+HOST = f'{host_input}'
 PORT = 12345
 
 s = socket(AF_INET, SOCK_STREAM)

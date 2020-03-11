@@ -1,7 +1,7 @@
 from socket import*
 import os
-
-host = '0.0.0.0'
+host_input = input("Hvilken ip har din makker? ")
+host = f'{host_input}'
 port = 12345
 
 s = socket(AF_INET, SOCK_STREAM)
